@@ -1,0 +1,22 @@
+{
+  "name": "Кладовая — учёт продуктов и рецепты",
+  "short_name": "Кладовая",
+  "description": "Домашний учёт продуктов, умный список покупок и подбор рецептов по запасам.",
+  "lang": "ru",
+  "start_url": "./#/products",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F1EEE7",
+  "theme_color": "#F1EEE7",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Список покупок", "url": "./#/shopping" },
+    { "name": "Рецепты", "url": "./#/recipes" }
+  ]
+}
